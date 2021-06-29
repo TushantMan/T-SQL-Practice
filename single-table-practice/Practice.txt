@@ -1,0 +1,56 @@
+
+
+Table:
+student(sno,sname,sage,ssex,sdept)
+course(cno,cname,credit,snumber)
+sc(sno,cno,grade)
+
+In which sno is the student NO., sname is student's name, sage is student's age, ssex is student's gender('m' means male and 'f' means female),sdept is the student's department
+
+cno is course NO.,cname is course name, cnumber is the limitation of this course
+
+sc is the table of student-taking-course, grade is the score results
+ 
+
+First Step: Please open ¡®createTables.sql¡¯, execute the code to create the database;
+
+Second Step: Please open ¡®insertTables.sql¡¯, execute the code to insert data;
+
+Third Step: Please finish the below request:
+
+------------------------------------------------
+Select from single table
+
+1.Search all information of course
+
+2.Output student NO(sno),student name and department of student whose name include 'X'.
+
+3.Output students' information whose name has 'H' as the third letter.
+
+4.Output student NO who has take at least one course¡£
+
+5.Output male student information whose age is between 18 to 20
+
+6.Output male student of department CS
+
+7.Output male student's name whose name start with 'Zhang'
+
+8.Output student information from CS department who is under 18
+
+9.Output course information of which limitation larger than 4 and credit higher than 3.
+
+10.Output students' NO and score who take course of 'c05'
+
+11.Output '001' student's course no and score
+
+12.Output course information which score is between 70 to 79
+
+13.Output 'c01' course information which score is between 70 to 79.
+
+
+
+
+
+
+
+
